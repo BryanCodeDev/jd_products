@@ -18,7 +18,7 @@ const Cart = ({ isOpen, onClose, cartItems, updateQuantity, removeFromCart }) =>
     message += `*TOTAL: $${total.toLocaleString()}*%0A%0A`;
     message += "¿Podrían confirmar disponibilidad y tiempo de entrega? ¡Gracias!";
     
-    window.open(`https://wa.me/573113670631?text=${message}`, '_blank');
+    window.open(`https://wa.me/573238957962?text=${message}`, '_blank');
   };
 
   if (!isOpen) return null;

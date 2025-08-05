@@ -6,7 +6,7 @@ export const products = [
     price: 4500,
     originalPrice: 5000,
     category: "snacks",
-    image: "/assets/broteinos.webp",
+    image: "/assets/broteinos.webp", // ✅ Ruta corregida
     description: "Come un Snack saludable... Barras de proteínas para después de un partido, entrenamiento, esfuerzo físico o mental.",
     features: [
       "Ideal después del ejercicio",
@@ -28,7 +28,7 @@ export const products = [
     price: 8500,
     originalPrice: 10000,
     category: "accesorios",
-    image: "/img/manillas.webp",
+    image: "/assets/manillas.webp", // ✅ Ruta corregida (era /img/manillas.webp)
     description: "¿No te pasa que se te dificulta hallar algo que te luzca con tu outfit? Pues eso ya no es problema.",
     features: [
       "Colores personalizados",
@@ -49,7 +49,7 @@ export const products = [
     title: "Llaveros",
     price: 3200,
     category: "accesorios",
-    image: "/assets/llaveros.webp",
+    image: "/assets/llaveros.webp", // ✅ Ruta correcta
     description: "¿No te pasa que cuando te dan una llave no sabes qué hacer para no perderla? Tenemos la solución.",
     features: [
       "Diseños únicos",

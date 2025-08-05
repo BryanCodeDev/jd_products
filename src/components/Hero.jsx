@@ -53,7 +53,7 @@ const Hero = () => {
               <div className="relative order-1 lg:order-2">
                 <div className="aspect-square max-w-xs sm:max-w-sm mx-auto lg:max-w-full rounded-2xl overflow-hidden shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-500">
                   <img 
-                    src="/assets/logo1.webp" 
+                    src="/assets/logo1.webp"  // ✅ Ruta corregida (mantiene la correcta)
                     alt="Jugador de fútbol - La pasión que impulsa JD Productos"
                     className="w-full h-full object-cover"
                     onError={(e) => {

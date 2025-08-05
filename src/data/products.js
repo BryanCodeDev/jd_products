@@ -28,7 +28,7 @@ export const products = [
     price: 8500,
     originalPrice: 10000,
     category: "accesorios",
-    image: "/assets/manillas.webp",
+    image: "/img/manillas.webp",
     description: "¿No te pasa que se te dificulta hallar algo que te luzca con tu outfit? Pues eso ya no es problema.",
     features: [
       "Colores personalizados",
